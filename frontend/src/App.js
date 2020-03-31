@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './global.css';
+
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>Hello OminiStack.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Routes />
   );
 }
 
 export default App;
+
+
+// const [counter, setCounter] = useState(0);
+//   // Array [ValorReal, funcaoAtualizaValorReal]
+
+//   function increment(){
+//     setCounter(counter + 1);
+//     // console.log(counter);
+//   }
